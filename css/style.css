@@ -139,8 +139,8 @@ ul {
   bottom: 2%;
   right: 2%;
   background-color: var(--main-color);
-  padding: 15px 20px;
-  font-size: 25px;
+  padding: 10px 15px;
+  font-size: 20px;
   border-radius: 50%;
   
 }
@@ -906,8 +906,7 @@ header .main-nav .mega-menu .links li a i {
   }
 }
 .work-steps .image{
-  width: 469px;
-  height: 700px;
+  max-width: 100%;
   margin-right: 100px;
   border-radius: 5px;
 }
@@ -986,6 +985,8 @@ flex-wrap: wrap;
 }
 .events img{
   max-width: 450px;
+  height: 450px;
+  border-radius:5px ;
 }
 @media(max-width:991px){
   .events img{
