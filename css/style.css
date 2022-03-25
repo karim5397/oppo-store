@@ -124,6 +124,7 @@ ul {
   width: 204px;
   background-repeat: no-repeat;
   position: absolute;
+  z-index: -1;
 }
 .dots-up {
   top: 200px;
@@ -137,12 +138,19 @@ ul {
   display: none;
   position: fixed;
   bottom: 2%;
-  right: 2%;
+  right: 3%;
   background-color: var(--main-color);
   padding: 10px 15px;
   font-size: 20px;
   border-radius: 50%;
+  z-index: 100;
   
+}
+@media(max-width:767px){
+  .arrow-up{
+    padding: 5px 10px;
+    font-size: 10px;
+  }
 }
 
 /* :end global rules  */
@@ -1022,6 +1030,7 @@ flex-wrap: wrap;
 }
 .events .info .time .units span{
   display: block;
+  background-color: white;
 }
 .events .info .time .units span:first-child{
   font-size: 35px;
