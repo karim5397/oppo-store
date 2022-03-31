@@ -1037,7 +1037,7 @@ flex-wrap: wrap;
   border-radius: 6px;
   width: 80px;
   transition: var(--main-transation);
-  background-color: white;
+  background-color: var(--sec-dark-color);
 }
 @media(max-width:767px){
   .events .info .time .units{
