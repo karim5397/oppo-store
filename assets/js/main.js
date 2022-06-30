@@ -1,3 +1,9 @@
+AOS.init({
+  delay:200,
+  duration:1000,
+});
+
+
 // our skill width
 let ourSkills = document.querySelector(".our-skills");
 let span = document.querySelectorAll(".progress span");
